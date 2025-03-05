@@ -1,6 +1,6 @@
-import * as THREE from 'three';
+import * as THREE from './libs/three.module.js';
 import { PeppersGhostEffect } from 'three/addons/effects/PeppersGhostEffect.js';
-import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
+import { FBXLoader } from './libs/FBXLoader.js';
 
 // Contenedor
 let container = document.createElement('div');
